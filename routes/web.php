@@ -28,24 +28,32 @@ Route::get('/home', 'HomeController@index')->name('home');
     Route::prefix('admin')->group(function () {
 
         Route::prefix('classes')->group(function () {
+            Route::get('/', 'ClassesController@index');
+            Route::get('/create', 'ClassesController@create');
             Route::post('store', 'ClassesController@store');
-            Route::get('/', 'ClassesController@index');
-            Route::get('/', 'ClassesController@index');
+            Route::get('/show/{classes}', 'ClassesController@show');
+
         });
 
         Route::prefix('objects')->group(function () {
             Route::post('store', 'ObjectsController@store');
             Route::get('/', 'ObjectsController@index');
+            Route::get('/create', 'ObjectsController@create');
+            Route::get('/show/{objects}', 'ObjectsController@show');
         });
 
         Route::prefix('teachers')->group(function () {
-            Route::post('store', 'TeachersController@store');
             Route::get('/', 'TeachersController@index');
+            Route::get('/create', 'TeachersController@create');
+            Route::get('/show/{teachers}', 'TeachersController@show');
+            Route::post('store', 'TeachersController@store');
         });
 
         Route::prefix('students')->group(function () {
-            Route::post('store', 'StudentsController@store');
             Route::get('/', 'StudentsController@index');
+            Route::get('/create', 'StudentsController@create');
+            Route::post('store', 'StudentsController@store');
+            Route::get('/show/{students}', 'StudentsController@show');
         });
 
         Route::prefix('notes')->group(function () {

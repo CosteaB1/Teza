@@ -13,10 +13,9 @@ class TeachersController extends Controller
      */
     public function index()
     {
-        $teachers = Teachers::all();
+        $teachers = Teachers::all()->load('objects');
 
-        return $teachers;
-    }
+        return view('teachers.index', compact('teachers'));    }
 
     /**
      * Show the form for creating a new resource.

@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Classes;
+use App\Objects;
 use App\Students;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -25,7 +27,9 @@ class StudentsController extends Controller
      */
     public function create()
     {
-        //
+        $classes = Classes::all();
+
+        return view('students/create', compact('classes'));
     }
 
     /**
@@ -37,11 +41,10 @@ class StudentsController extends Controller
     public function store(Request $request)
     {
         $data    = $request->all();
-        Validator::make($data, Students::validateStudents())->validate();
 
         $student = Students::create($data);
 
-        return $student;
+        return redirect('/admin/students/show/'.$student->id);
     }
 
     /**
@@ -52,7 +55,15 @@ class StudentsController extends Controller
      */
     public function show(Students $students)
     {
-        //
+        $students = $students->load('notes.objects');
+
+        $objects = Objects::whereHas('notes', function ($query) use($students) {
+            $query->where('student_id', '=', $students->id);
+        })->get();
+
+        $objects = $objects->load('notes');
+
+        return view('students/show', compact('students', 'objects'));
     }
 
     /**

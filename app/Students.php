@@ -11,12 +11,22 @@ class Students extends Model
         'class_id',
     ];
 
+    protected $table = 'students';
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function classes()
     {
         return $this->belongsTo(Classes::class, 'class_id', 'id');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function notes()
+    {
+        return $this->hasMany(Notes::class, 'student_id', 'id');
     }
 
     public static function validateStudents()

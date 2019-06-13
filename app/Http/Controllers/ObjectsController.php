@@ -15,7 +15,7 @@ class ObjectsController extends Controller
     {
         $objects = Objects::all();
 
-        return $objects;
+        return view('objects.index', compact('objects'));
     }
 
     /**

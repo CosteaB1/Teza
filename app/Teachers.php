@@ -9,6 +9,14 @@ class Teachers extends Model
     protected $fillable = ['object_id', 'name'];
 
     /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function objects()
+    {
+        return $this->belongsTo(Objects::class, 'object_id', 'id');
+    }
+
+    /**
      * @return array
      */
     public static function validateTeachers()

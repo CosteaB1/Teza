@@ -15,7 +15,7 @@ class ClassesController extends Controller
     {
         $classes = Classes::all();
 
-        return $classes;
+        return view('classes.index', compact('classes'));
     }
 
     /**
@@ -25,7 +25,9 @@ class ClassesController extends Controller
      */
     public function create()
     {
-        //
+        $classes = Classes::all();
+
+        return view('classes/create', compact('classes'));
     }
 
     /**
@@ -37,11 +39,10 @@ class ClassesController extends Controller
     public function store(Request $request)
     {
         $data = $request->all();
-        Validator::make($data, Classes::validateStudents())->validate();
 
         $classes = Classes::create($data);
 
-        return $classes;
+        return redirect('/admin/classes/show/'.$classes->id);
     }
 
     /**
@@ -52,7 +53,9 @@ class ClassesController extends Controller
      */
     public function show(Classes $classes)
     {
-        return $classes;
+        $students = $classes->students()->get();
+
+        return view('classes/show', compact('classes', 'students'));
     }
 
     /**
