@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-        <title>HTML Education Template</title>
+        <title>Mircea Eliade</title>
 
         <!-- Google font -->
         <link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
@@ -37,8 +37,8 @@
                 <div class="navbar-header">
                     <!-- Logo -->
                     <div class="navbar-brand">
-                        <a class="logo" href="index.html">
-                            <img src="./img/logo-alt.png" alt="logo">
+                        <a class="logo white-text" href="#">
+                            Mircea Eliade
                         </a>
                     </div>
                     <!-- /Logo -->
@@ -53,10 +53,10 @@
                 <!-- Navigation -->
                 <nav id="nav">
                     <ul class="main-menu nav navbar-nav navbar-right">
-                        <!-- <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="blog.html">Blog</a></li> -->
+                        <li><a href="#">Home</a></li>
+                        <li><a href="/profesori">Profesori</a></li>
+                        <li><a href="#">Elevi</a></li>
+                        <li><a href="blog.html">Orar</a></li>
                         <li><a href="/login">Login</a></li>
                     </ul>
                 </nav>
@@ -77,9 +77,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h1 class="white-text">Edusite Free Online Training Courses</h1>
-                            <p class="lead white-text">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant, eu pro alii error homero.</p>
-                            <a class="main-button icon-button" href="#">Get Started!</a>
+                            <h1 class="white-text">Bun sosit pe pagina Liceului Teoretic “Mircea Eliade” din Chişinău!</h1>
+                            <p class="lead white-text">Cu începere din anul înfiinţării, 1990 şi până în prezent Liceul Teoretic “Mircea Eliade” a demonstrat că este o instituţie de formare a tinerei generaţii prin prestaţia elevilor din Liceu dar şi prin realizările absolvenţilor noştri – absolvenţilor LICEULUI PERSONALITĂŢILOR. Fiind unul din primele licee fondate din Republica Moldova a rămas primul la mai multe compartimente. Liceul a fost conceput şi prelungeşte a fi cu studierea aprofundată a limbii engleze.</p>
+                 <!--            <a class="main-button icon-button" href="#">Get Started!</a> -->
                         </div>
                     </div>
                 </div>
@@ -99,16 +99,16 @@
 
                     <div class="col-md-6">
                         <div class="section-header">
-                            <h2>Welcome to Edusite</h2>
-                            <p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+                            <h2>Liceului Teoretic “Mircea Eliade” </h2>
+                            <p class="lead">Formarea elevului competent care aplică eficient cunoştinţele achiziţionate în dezvoltarea propriei personalităţi;</p>
                         </div>
 
                         <!-- feature -->
                         <div class="feature">
                             <i class="feature-icon fa fa-flask"></i>
                             <div class="feature-content">
-                                <h4>Online Courses </h4>
-                                <p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+                                <h4>Lectii </h4>
+                                <p>Se lucrează frumos, interactiv, motivant, avem elevi care aşteaptă cu nerăbdare lecţiile</p>
                             </div>
                         </div>
                         <!-- /feature -->
@@ -117,8 +117,8 @@
                         <div class="feature">
                             <i class="feature-icon fa fa-users"></i>
                             <div class="feature-content">
-                                <h4>Expert Teachers</h4>
-                                <p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+                                <h4>Profesori Experti</h4>
+                                <p>In Liceul Teoretic "Mircea Eliade" sunt cei mai buni profesori</p>
                             </div>
                         </div>
                         <!-- /feature -->
@@ -127,8 +127,8 @@
                         <div class="feature">
                             <i class="feature-icon fa fa-comments"></i>
                             <div class="feature-content">
-                                <h4>Community</h4>
-                                <p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+                                <h4>Despre Liceu</h4>
+                                <p>Din anul înfiinţării, 1990, până în prezent, Liceul Teoretic „M. Eliade” a demonstrat, prin prestanţa elevilor şi realizările absolvenţilor, că este o veritabilă instituţie de învăţământ, în care se educă adevărate personalităţi.</p>
                             </div>
                         </div>
                         <!-- /feature -->
@@ -148,179 +148,7 @@
             <!-- container -->
         </div>
         <!-- /About -->
-
-        <!-- Courses -->
-        <div id="courses" class="section">
-
-            <!-- container -->
-            <div class="container">
-
-                <!-- row -->
-                <div class="row">
-                    <div class="section-header text-center">
-                        <h2>Explore Courses</h2>
-                        <p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
-                    </div>
-                </div>
-                <!-- /row -->
-
-                <!-- courses -->
-                <div id="courses-wrapper">
-
-                    <!-- row -->
-                    <div class="row">
-
-                        <!-- single course -->
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="course">
-                                <a href="#" class="course-img">
-                                    <img src="./img/course01.jpg" alt="">
-                                    <i class="course-link-icon fa fa-link"></i>
-                                </a>
-                                <a class="course-title" href="#">Beginner to Pro in Excel: Financial Modeling and Valuation</a>
-                                <div class="course-details">
-                                    <span class="course-category">Business</span>
-                                    <span class="course-price course-free">Free</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /single course -->
-
-                        <!-- single course -->
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="course">
-                                <a href="#" class="course-img">
-                                    <img src="./img/course02.jpg" alt="">
-                                    <i class="course-link-icon fa fa-link"></i>
-                                </a>
-                                <a class="course-title" href="#">Introduction to CSS </a>
-                                <div class="course-details">
-                                    <span class="course-category">Web Design</span>
-                                    <span class="course-price course-premium">Premium</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /single course -->
-
-                        <!-- single course -->
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="course">
-                                <a href="#" class="course-img">
-                                    <img src="./img/course03.jpg" alt="">
-                                    <i class="course-link-icon fa fa-link"></i>
-                                </a>
-                                <a class="course-title" href="#">The Ultimate Drawing Course | From Beginner To Advanced</a>
-                                <div class="course-details">
-                                    <span class="course-category">Drawing</span>
-                                    <span class="course-price course-premium">Premium</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /single course -->
-
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="course">
-                                <a href="#" class="course-img">
-                                    <img src="./img/course04.jpg" alt="">
-                                    <i class="course-link-icon fa fa-link"></i>
-                                </a>
-                                <a class="course-title" href="#">The Complete Web Development Course</a>
-                                <div class="course-details">
-                                    <span class="course-category">Web Development</span>
-                                    <span class="course-price course-free">Free</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /single course -->
-
-                    </div>
-                    <!-- /row -->
-
-                    <!-- row -->
-                    <div class="row">
-
-                        <!-- single course -->
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="course">
-                                <a href="#" class="course-img">
-                                    <img src="./img/course05.jpg" alt="">
-                                    <i class="course-link-icon fa fa-link"></i>
-                                </a>
-                                <a class="course-title" href="#">PHP Tips, Tricks, and Techniques</a>
-                                <div class="course-details">
-                                    <span class="course-category">Web Development</span>
-                                    <span class="course-price course-free">Free</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /single course -->
-
-                        <!-- single course -->
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="course">
-                                <a href="#" class="course-img">
-                                    <img src="./img/course06.jpg" alt="">
-                                    <i class="course-link-icon fa fa-link"></i>
-                                </a>
-                                <a class="course-title" href="#">All You Need To Know About Web Design</a>
-                                <div class="course-details">
-                                    <span class="course-category">Web Design</span>
-                                    <span class="course-price course-free">Free</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /single course -->
-
-                        <!-- single course -->
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="course">
-                                <a href="#" class="course-img">
-                                    <img src="./img/course07.jpg" alt="">
-                                    <i class="course-link-icon fa fa-link"></i>
-                                </a>
-                                <a class="course-title" href="#">How to Get Started in Photography</a>
-                                <div class="course-details">
-                                    <span class="course-category">Photography</span>
-                                    <span class="course-price course-free">Free</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /single course -->
-
-
-                        <!-- single course -->
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="course">
-                                <a href="#" class="course-img">
-                                    <img src="./img/course08.jpg" alt="">
-                                    <i class="course-link-icon fa fa-link"></i>
-                                </a>
-                                <a class="course-title" href="#">Typography From A to Z</a>
-                                <div class="course-details">
-                                    <span class="course-category">Typography</span>
-                                    <span class="course-price course-free">Free</span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /single course -->
-
-                    </div>
-                    <!-- /row -->
-
-                </div>
-                <!-- /courses -->
-
-                <div class="row">
-                    <div class="center-btn">
-                        <a class="main-button icon-button" href="#">More Courses</a>
-                    </div>
-                </div>
-
-            </div>
-            <!-- container -->
-
-        </div>
-        <!-- /Courses -->
+<!--  -->
 
         <!-- Call To Action -->
         <div id="cta" class="section">
@@ -336,9 +164,8 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <h2 class="white-text">Ceteros fuisset mei no, soleat epicurei adipiscing ne vis.</h2>
-                        <p class="lead white-text">Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
-                        <a class="main-button icon-button" href="#">Get Started!</a>
+                        <h2 class="white-text">Vezi Lista elevilor din acest liceu</h2>
+                        <a class="main-button icon-button" href="#">Apasa aici!</a>
                     </div>
 
                 </div>
@@ -359,8 +186,8 @@
                 <!-- row -->
                 <div class="row">
                     <div class="section-header text-center">
-                        <h2>Why Edusite</h2>
-                        <p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
+                        <h2>De ce Liceul Teoretic "Mircea Eliade"</h2>
+                        <p class="lead">De la bun început, scopul instituţiei s-a axat nu doar pe pregătirea propriu-zisă la discipline ale elevilor, dar şi pe:</p>
                     </div>
 
                     <!-- feature -->
@@ -368,8 +195,7 @@
                         <div class="feature">
                             <i class="feature-icon fa fa-flask"></i>
                             <div class="feature-content">
-                                <h4>Online Courses</h4>
-                                <p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+                                <p>Ceducarea unei noi mentalităţi, în spiritul libertăţii de gândire şi acţiune, al pragmatismului şi al eficienţei vieţii;</p>
                             </div>
                         </div>
                     </div>
@@ -380,8 +206,7 @@
                         <div class="feature">
                             <i class="feature-icon fa fa-users"></i>
                             <div class="feature-content">
-                                <h4>Expert Teachers</h4>
-                                <p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+                                <p>cu aspiraţii la studii performante, devenind un cetăţean activ şi apt de a se integra în societate;</p>
                             </div>
                         </div>
                     </div>
@@ -392,8 +217,7 @@
                         <div class="feature">
                             <i class="feature-icon fa fa-comments"></i>
                             <div class="feature-content">
-                                <h4>Community</h4>
-                                <p>Ceteros fuisset mei no, soleat epicurei adipiscing ne vis. Et his suas veniam nominati.</p>
+                                <p>formarea unui absolvent autonom, responsabil, competent profesional, ce corespunde standardelor de valori ale cetăţeanului european.</p>
                             </div>
                         </div>
                     </div>
@@ -408,9 +232,10 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <h3>Persius imperdiet incorrupte et qui, munere nusquam et nec.</h3>
-                        <p class="lead">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
-                        <p>No vel facete sententiae, quodsi dolores no quo, pri ex tamquam interesset necessitatibus. Te denique cotidieque delicatissimi sed. Eu doming epicurei duo. Sit ea perfecto deseruisse theophrastus. At sed malis hendrerit, elitr deseruisse in sit, sit ei facilisi mediocrem.</p>
+                        <h3>DESPRE LICEU</h3>
+                        <p class="lead">Adresa: MD-2012, mun. Chisinau, str. Mitropolit G. Banulescu-Bodoni, 33 </p>
+                        <p>Tel: (+373 22) 233 936</p>
+                        <p>Prin valorificarea experienţei profesionale, în colaborare şi parteneriat cu toţi factorii sociali implicaţi în educaţie, Liceul urmăreşte menţinerea poziţiei de instituţie de învăţământ de performanţă, care asigură formarea unui absolvent competent, responsabil, independent, capabil să facă faţă standardelor şi valorilor europene.</p>
                     </div>
 
                     <div class="col-md-5 col-md-offset-1">
@@ -443,9 +268,9 @@
                 <div class="row">
 
                     <div class="col-md-8 col-md-offset-2 text-center">
-                        <h2 class="white-text">Contact Us</h2>
-                        <p class="lead white-text">Libris vivendo eloquentiam ex ius, nec id splendide abhorreant.</p>
-                        <a class="main-button icon-button" href="#">Contact Us Now</a>
+                        <h2 class="white-text">Contacte</h2>
+                        <p class="lead white-text">Email: ltmirceaeliade@gmail.com,info@liceu-eliade.md</p>
+                        <a class="main-button icon-button" href="#">Acum ! </a>
                     </div>
 
                 </div>
@@ -470,7 +295,7 @@
                     <div class="col-md-6">
                         <div class="footer-logo">
                             <a class="logo" href="index.html">
-                                <img src="./img/logo.png" alt="logo">
+                                <h1 class="black-text"> Liceul Teoretic "Mircea Eliade" </h1>
                             </a>
                         </div>
                     </div>
@@ -480,10 +305,10 @@
                     <div class="col-md-6">
                         <ul class="footer-nav">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Profesori</a></li>
+                            <li><a href="#">Elevi</a></li>
+                            <li><a href="blog.html">Orar</a></li>
+                            <li><a href="contact.html">Login</a></li>
                         </ul>
                     </div>
                     <!-- /footer nav -->
@@ -510,7 +335,7 @@
                     <!-- copyright -->
                     <div class="col-md-8 col-md-pull-4">
                         <div class="footer-copyright">
-                            <span>&copy; Copyright 2018. All Rights Reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></span>
+                            <span>&copy; Copyright 2019. All Rights Reserved. | This template is made by Bivol Constantin</a></span>
                         </div>
                     </div>
                     <!-- /copyright -->
